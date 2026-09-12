@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Firebase
+google-services.json
+!app/google-services.json.example
+
+# Logs & temp
+*.log
+*.tmp
+build-log.txt
+build-both.txt
+
+# OS
+.DS_Store
+Thumbs.db
